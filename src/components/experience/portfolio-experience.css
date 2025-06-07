@@ -1,0 +1,50 @@
+.portfolio-experience {
+  background-color: var(--accent-orange);
+  padding: 4rem 2rem;
+  text-align: center;
+  color: var(--neutral-white);
+}
+
+.portfolio-experience h2 {
+  color: var(--neutral-white);
+}
+
+.portfolio-section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.portfolio-experience-toggle {
+  margin-bottom: 2rem;
+}
+
+.portfolio-toggle-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-dark);
+  cursor: pointer;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.portfolio-toggle-btn.active {
+  color: var(--neutral-white);
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.portfolio-experience-list {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: auto;
+}
+
+.portfolio-experience-list li {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
