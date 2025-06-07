@@ -1,4 +1,4 @@
-.portfolio-header {
+.gamehub-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,11 +7,11 @@
   border-bottom: 1px solid #ddd;
 }
 
-.portfolio-logo {
+.gamehub-logo {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
-  color: var(--accent-orange);
+  color: var(--accent-orange); /* Puedes cambiarlo si quieres darle un toque más "gaming" */
 }
 
 .menu-toggle {
@@ -23,7 +23,7 @@
   cursor: pointer;
 }
 
-.portfolio-nav-menu {
+.gamehub-nav-menu {
   display: flex;
   gap: 2rem;
   list-style: none;
@@ -31,27 +31,29 @@
   padding: 0;
 }
 
-.portfolio-nav-link {
-  text-decoration: none;
+.gamehub-nav-button {
+  background: none;
+  border: none;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   color: var(--dark-blue);
   font-size: 1.1rem;
+  cursor: pointer;
   transition: color 0.3s ease;
 }
 
-.portfolio-nav-link:hover {
+.gamehub-nav-button:hover {
   color: var(--accent-orange);
 }
 
 /* Responsive Header */
 @media (max-width: 871px) {
-  .portfolio-header {
+  .gamehub-header {
     flex-direction: column;
     align-items: center;
   }
 
-  .portfolio-nav-menu {
+  .gamehub-nav-menu {
     flex-direction: column;
     position: absolute;
     top: 60px;
@@ -63,7 +65,7 @@
     display: none;
   }
 
-  .portfolio-nav-menu.show {
+  .gamehub-nav-menu.show {
     display: flex;
   }
 

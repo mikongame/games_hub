@@ -1,18 +1,17 @@
-import './portfolio-footer.css';
+import './gamehub-footer.css';
 import linkedinIcon from '../../assets/icons/linkedin-icon.png';
 import emailIcon from '../../assets/icons/email-icon.png';
 import githubIcon from '../../assets/icons/github-icon.png';
 
-export function createPortfolioFooter() {
+export function createGameHubFooter() {
   const footer = document.createElement('footer');
-  footer.classList.add('portfolio-footer');
+  footer.classList.add('gamehub-footer');
 
   const text = document.createElement('p');
   text.textContent = `© ${new Date().getFullYear()} Miguel García Melgar · Built with ❤️ using Vanilla JS & Vite`;
 
-
   const icons = document.createElement('div');
-  icons.classList.add('social-icons');
+  icons.classList.add('gamehub-social-icons');
 
   const links = [
     { href: 'https://linkedin.com/in/mikongame', src: linkedinIcon, alt: 'LinkedIn' },
