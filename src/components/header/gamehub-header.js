@@ -6,7 +6,7 @@ export function createGameHubHeader() {
 
   const title = document.createElement('h1');
   title.classList.add('gamehub-logo');
-  title.textContent = '🎮 Game Hub';
+  title.textContent = '🎮 Mikon Games Hub';
 
   const menuToggle = document.createElement('button');
   menuToggle.classList.add('menu-toggle');
