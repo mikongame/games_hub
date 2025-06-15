@@ -50,6 +50,10 @@ function iniciarSlots(container, nombreJugador, modo) {
   const wrapper = document.createElement('div');
   wrapper.classList.add('slots-wrapper');
 
+  const title = document.createElement('h2');
+  title.textContent = 'Tragaperras';
+  wrapper.appendChild(title);
+
   // === Puntuación ===
   const scores = document.createElement('section');
   scores.classList.add('slots-scores');

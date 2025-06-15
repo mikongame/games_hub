@@ -1,6 +1,7 @@
 import { renderTicTacToe } from '../container/games/tictactoe/tictactoe.js';
 import { renderPPTLS } from '../container/games/pptls/pptls.js';
 import { renderSlots } from '../container/games/slotmachine/slotmachine.js';
+import './gamehub-container.css';
 
 export function createGameHubContainer() {
   const container = document.createElement('main');

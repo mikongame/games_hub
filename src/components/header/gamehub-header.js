@@ -1,4 +1,4 @@
-import './gamehub-header.css'; // Renombrado si decides mantener los estilos separados
+import './gamehub-header.css';
 
 export function createGameHubHeader() {
   const header = document.createElement('header');

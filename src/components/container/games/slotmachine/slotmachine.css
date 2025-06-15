@@ -6,6 +6,10 @@
   font-family: 'Poppins', 'Segoe UI', sans-serif;
 }
 
+.slots-wrapper h2 {
+color: var(--neutral-white);
+}
+
 .slots-display,
 .slots-scores,
 .slots-controls {
@@ -14,6 +18,14 @@
   text-align: center;
   box-sizing: border-box;
   margin-bottom: 1em;
+}
+
+.slots-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
 }
 
 .slots-reel {
@@ -80,4 +92,25 @@
   border: 2px dashed gold;
   text-align: center;
   font-size: 0.9em;
+}
+
+.slots-paytable div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.slots-paytable span {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  margin-left: auto;
+  padding-left: 0.5em;
+}
+
+h2, .game-title, .gamehub-intro h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+  text-shadow: 1px 1px 0 #0002;
 }

@@ -6,10 +6,21 @@
   font-family: 'Poppins', 'Segoe UI', sans-serif;
 }
 
+.tictactoe-wrapper {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+  text-shadow: 1px 1px 0 #0002;
+}
+
+.tictactoe-wrapper h2{
+color: var(--neutral-white);
+}
+
 .tictactoe-marcador {
   font-size: 1.2em;
   margin-top: 1em;
-  background-color: #fff;
+  background-color: var(--neutral-white);
   padding: 0.5em 1.2em;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -23,7 +34,7 @@
   max-width: 620px;
   margin: 2em auto;
   padding: 1em;
-  background-color: #ffffff;
+  background-color: var(--neutral-white);
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
   border-radius: 12px;
 }
@@ -58,7 +69,7 @@
   margin: 1em auto;
   padding: 10px 20px;
   font-size: 1em;
-  background-color: #001F54;
+  background-color: var(--accent-orange);
   color: white;
   border: none;
   border-radius: 8px;
@@ -69,7 +80,7 @@
 }
 
 .tictactoe-reiniciar:hover {
-  background-color: #0047AB;
+  background-color: var(--secondary-blue);
   font-weight: bold;
   transform: scale(1.03);
 }
@@ -80,7 +91,7 @@
   align-items: center;
   gap: 1rem;
   padding: 2rem 1rem;
-  background-color: #fff;
+  background-color: var(--neutral-white);
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
   font-family: 'Poppins', sans-serif;
@@ -89,9 +100,12 @@
 }
 
 .selector-jugador p {
-  font-size: 1.2rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+  text-shadow: 1px 1px 0 #0002;
   font-weight: bold;
-  color: #001F54;
+  color: var(--dark-blue);
   text-align: center;
 }
 
@@ -114,8 +128,8 @@
   font-size: 1rem;
   border: none;
   border-radius: 8px;
-  background-color: #5A9BD5;
-  color: white;
+  background-color: var(--primary-blue);
+  color: var(--neutral-white);
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-weight: bold;
@@ -123,6 +137,8 @@
 }
 
 .selector-jugador button:hover {
-  background-color: #0047AB;
+  background-color: var(--secondary-blue);
 }
+
+
 

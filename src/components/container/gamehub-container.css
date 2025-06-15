@@ -1,13 +1,12 @@
 .gamehub-container {
   min-height: 60vh;
-  max-width: 800px;
   padding: 2rem 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: var(--neutral-white);
+  background-color: var(--dark-blue);
   box-sizing: border-box;
 }
 
@@ -51,6 +50,7 @@
 
 .gamehub-rules li {
   margin-bottom: 0.8em;
+  list-style: none;
 }
 
 .gamehub-note {
@@ -76,3 +76,18 @@
     padding: 1.5rem 1rem;
   }
 }
+
+h2, .game-title, .gamehub-intro h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+  text-shadow: 1px 1px 0 #0002;
+}
+
+p.gamehub-placeholder {
+  font-family: 'Press Start 2P', cursive;
+  color: var(--neutral-white);
+  font-size: 1rem;
+  letter-spacing: -0.5px;
+}
+
